@@ -9,8 +9,6 @@ templates -- 网页
 
 static -- 图片
 
-court_name.txt -- 所有法院名称
-
 getCourt.py -- 获取法院
 
 manage.py -- 启动服务器
