@@ -2,7 +2,7 @@ import pyautogui
 from time import sleep
 import pythoncom
 
-
+# 自动化爬虫
 def getData(court="", sum=4, time_start="1900-01-01", time_end="2099-12-31"):
     import pyperclip
     import pyscreeze
@@ -56,7 +56,7 @@ def getData(court="", sum=4, time_start="1900-01-01", time_end="2099-12-31"):
 
     return readWenShu()
 
-
+# 解压并读取文书
 def readWenShu():
     import os
     os.mkdir(r"C:/Users/21058/Desktop/分词系统/Segmenter/Segmenter/doc")
