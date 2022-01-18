@@ -2,6 +2,7 @@ import pyautogui
 from time import sleep
 import pythoncom
 
+# 自动爬虫
 def getData(s21,sum,time_start = "1900-01-01",time_end = "2099-12-31"):
     import pyperclip
     import pyscreeze
@@ -56,7 +57,7 @@ def getData(s21,sum,time_start = "1900-01-01",time_end = "2099-12-31"):
 
     return readWenShu()
 
-
+# 解压并读取下载的文书
 def readWenShu():
     import os
     os.mkdir(r"C:/Users/21058/Desktop/分词系统/Segmenter/Segmenter/doc")
@@ -115,5 +116,4 @@ def readWenShu():
         os.remove(r"C:/Users/21058/Desktop/分词系统/Segmenter/Segmenter/download/" + file)
     return result
 
-# print(getData("李亚飞",4,"2016-01-01","2020-12-30",person="李亚飞"))
 
