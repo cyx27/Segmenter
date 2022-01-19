@@ -2,11 +2,9 @@ asgi.py ,seperatingwords.py ,settings.py ,spider.py ,urls.py ,wsgi.py --  初始
 
 compare.py -- 相似度比较
 
-decrypt_content.js -- 
+dowithfile.py -- 文件处理
 
-dowithfile.py -- 
-
-index.py -- 
+index.py -- 前端文件
 
 searchcourt.py -- 按法院搜索的爬虫
 
