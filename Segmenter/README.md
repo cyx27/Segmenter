@@ -1,4 +1,4 @@
-asgi.py ,seperatingwords.py ,settings.py ,spider.py ,urls.py ,wsgi.py --  初始化
+asgi.py ,seperatingwords.py ,settings.py ,spider.py ,urls.py ,wsgi.py --  初始化配置
 
 compare.py -- 相似度比较
 
